@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(233, 225, 225);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.leftblock{
+    position: absolute;
+    top: 30% ;
+    left: 15%;
+    font-size: 27px;
+}
+.container h1{
+    color: rgb(44, 131, 242);
+}
+header{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 20%;
+    left: 57%;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.top input{
+    width: 89%;
+    margin: 15px 10px 10px 20px ;
+    padding: 13px 18px;
+    border-radius: 5px;
+    border-color: rgb(44, 131, 242);
+}
+
+.login{
+    text-align: center;
+    background-color: rgb(44, 131, 242);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.login a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.forgot{
+    text-align: center;
+    padding: 8px;
+}
+
+.forgot a{
+    text-decoration: none;
+    color:rgb(44, 131, 242);
+}
+hr{
+    margin:0px 20px 0px 20px;
+}
+.create{
+    width: 50%;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(46, 203, 46);
+    margin: 35px 40px 10px 70px;
+}
+.create a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+
+}
